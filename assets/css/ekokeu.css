@@ -44,7 +44,7 @@ body {
     font-family: var(--font-style);
     font-size: var(--h2-font-size);
     color: var(--second-color);
-    background: url("img/background.jpg");
+    background: url("../img/background.jpg");
     background-size: 100%;
 }
 
@@ -147,7 +147,7 @@ h2 {
         font-family: var(--font-style);
         font-size: var(--h2-font-size);
         color: var(--second-color);
-        background: url("img/Litbang.png");
+        background: url("../img/Litbang.png");
         background-blend-mode: hard-light;
         background-size: 100%;
     }
@@ -161,7 +161,7 @@ h2 {
         bottom:var(--mb-4);
         right:var(--mb-10);
         left:var(--mb-10);
-        background: url("img/Litbang.png");
+        background: url("../img/Litbang.png");
         background-size: 100%;
         background-attachment: fixed;
         display:flex;
