@@ -51,6 +51,8 @@ body {
 h2 {
     margin: 0;
 }
+
+/* Kotak dalam untuk wadah judul sama Countdown timer */
 .countdown__container{
     position: absolute;
     top: var(--mb-4);
@@ -58,7 +60,7 @@ h2 {
     right:var(--mb-1);
     left:var(--mb-1);
     background: var(--white-color);
-    background: linear-gradient(to right bottom, #ffffff2d,#ffffffe0);
+    background: linear-gradient(to right bottom, #ffffff2d,#000000e0);
     background-attachment: fixed;
     border-radius: 3%;
     display:flex;
@@ -68,6 +70,7 @@ h2 {
     box-shadow: 0 var(--mb-4) var(--mb-4) rgba(0,0,0,1)
 }
 
+/* Judul */
 .countdown__container-subtitle{
     text-align: center;
     font-size: var(--h2-font-size);
@@ -81,27 +84,13 @@ h2 {
     font-size: var(--big-font-size);
 
 }
-.countdown__container-link{
-    color: #FBBC04;
-    font-size: 2.5rem;
-}
-.countdown__container-link span{
-    color: #FBBC04;
-    font-size: 1rem;
-}
-.countdown__container-link span:hover{
-    color: #4285F4;
-    font-size: 1rem;
-}
-.countdown__container-link:hover{
-    color:  #34A853;
-    font-size: var(--mb-3);
-}
+/* Timer */
 .countdown__timer{
     display: flex;
     margin-top: var(--mb-3);
 }
 
+/* Timer Coundown */
 .countdown__timer-time{
     position: relative;
     width: var(--mb-4);
@@ -142,12 +131,14 @@ h2 {
     content: 'Seconds';
 }
 
+
+/* Untuk Style Tampilan di Laptop */
 @media screen and (min-width: 1024px){
     body {
         font-family: var(--font-style);
         font-size: var(--h2-font-size);
         color: var(--second-color);
-        background: url("../img/Litbang.png");
+        background: url("../img/Neraka.jpg");
         background-blend-mode: hard-light;
         background-size: 100%;
     }
@@ -161,7 +152,8 @@ h2 {
         bottom:var(--mb-4);
         right:var(--mb-10);
         left:var(--mb-10);
-        background: url("../img/Litbang.png");
+        /* background: url("../img/Litbang.png"); */
+        background: linear-gradient(to right bottom, #0000002d,#000000e0);
         background-size: 100%;
         background-attachment: fixed;
         display:flex;

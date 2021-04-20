@@ -1,4 +1,4 @@
-
+/* ================== Ganti Tanggal yang ada di variabel countDate sesuaikan dengan deadline yaaa ============== */
 // Waktu yang di tuju
 var countDate = new Date('Jan 22, 2021 00:00:00').getTime(); //TANGGAL TUJUAN
 
