@@ -1,6 +1,6 @@
 /* ================== Ganti Tanggal yang ada di variabel countDate sesuaikan dengan deadline yaaa ============== */
 // Waktu yang di tuju
-var countDate = new Date('May 20, 2021 23:59:00').getTime(); //TANGGAL TUJUAN
+var countDate = new Date('May 21, 2021 23:59:00').getTime(); //TANGGAL TUJUAN
 
 // Fungsi countdown
 function deadline(){
