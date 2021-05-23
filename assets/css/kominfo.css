@@ -138,7 +138,7 @@ h2 {
         font-family: var(--font-style);
         font-size: var(--h2-font-size);
         color: var(--second-color);
-        background: url("../img/Neraka.jpg");
+        background: url("../img/background.jpg");
         background-blend-mode: hard-light;
         background-size: 100%;
     }
